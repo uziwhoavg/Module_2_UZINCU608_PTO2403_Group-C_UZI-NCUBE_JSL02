@@ -11,6 +11,8 @@ You will:
 **Debugging Brief:**
 In the current code, users can add the same fitness goal multiple times, leading to duplicate entries in the goal list. To enhance the user experience and prevent duplicates, you need to implement a check to ensure that the same goal cannot be added more than once. If a duplicate goal is detected, it should NOT be added to the list.
 
+![alt text](JSL02_Solution.png)
+
 **Issue:** Users can add duplicate fitness goals.
 **Debugging Task:** Prevent users from adding the same goal more than once.
 
