@@ -57,10 +57,10 @@ const addNewGoal = () => {
     goalList.appendChild(newGoal);
 };
 
-// EVENT listener to the goal submit button
+// intitatess the event listener --> GOAL SUBMISSION BUTTON
 document.querySelector('#submitGoal').addEventListener('click', addNewGoal);
 
-///
+/// HYDRATION COUNTER / RECORDER /TALLY
 let waterIntake = 0;
 const updateWaterIntake = (change) => {
     waterIntake += change;
@@ -85,6 +85,7 @@ const toggleTheme = () => {
 
 document.querySelector('#themeToggle').addEventListener('click', toggleTheme);
 
+// Prevents a default submit further alerts nutrrtional plan form submit.
 const submitMealPlan = (event) => {
     event.preventDefault(); 
     alert('Meal plan submitted successfully! 🍴');
